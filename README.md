@@ -22,4 +22,36 @@ conda activate venv
 ```
 ##in order to install requirement library. Create a file with requirement.txt and write flask and to install flask we have to write below command.
 pip install -r requirements.txt
+```
+to add file in git
+```
+git add .
+```
+OR
+```
+git add <file_name>
+'''
+>NOTE: To ignore file or folder from git we can write name of file/folder name in .gitignore file
+```
+to check the git status
+```
+git status
+```
+to check all verions maintained by git
+```
+git log
+```
+to create version/commit all changes by git
+```
+git commit -m "message"
+
+```
+to send version /changes to git hub
+'''
+git push origin main
+```
+To check remote URL
+```
+git remote -v
+```
 
